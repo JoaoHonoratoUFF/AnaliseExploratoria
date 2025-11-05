@@ -29,8 +29,6 @@ sum(is.na(Base_trabalho))
 
 ## Histograma da var. "Idade" ----
 
-# Histograma da idade
-
 hist(Base_trabalho$idade,
      main = "Histograma da Idade",
      xlab = "Idade do detento (anos completos)",
