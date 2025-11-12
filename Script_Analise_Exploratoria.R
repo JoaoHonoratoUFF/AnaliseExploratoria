@@ -43,8 +43,7 @@ plot(Base_trabalho$tempo_preso, Base_trabalho$score_periculosidade,
 ## Correlação entre tempo_preso e score_periculosidade ----
 
 cor(Base_trabalho$tempo_preso,
-    Base_trabalho$score_periculosidade,
-    use = "complete.obs")
+    Base_trabalho$score_periculosidade)
 
 ## Variância, desvio padrão e amplitude ----
 
